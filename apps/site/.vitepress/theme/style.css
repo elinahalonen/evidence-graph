@@ -1,0 +1,20 @@
+.graph-tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+}
+.graph-tool:hover { background: var(--vp-c-bg-soft); }
+.graph-tool[aria-expanded="true"] { border-color: var(--vp-c-brand-1); }
+.graph-tool:focus-visible, .graph-view input:focus-visible, .graph-list button:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 2px; }
+.graph-list { padding: 0; margin: 8px 0 16px; list-style: none; }
+.graph-list button, .graph-list a { display: block; width: 100%; padding: 8px 0; text-align: left; font: inherit; font-size: 13px; line-height: 1.5; color: var(--vp-c-brand-1); overflow-wrap: anywhere; cursor: pointer; }
+.graph-list button:hover, .graph-list a:hover { text-decoration: underline; }
